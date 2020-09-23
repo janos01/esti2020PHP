@@ -1,0 +1,16 @@
+/*
+Szerző: Sallai András
+2020-09-21
+*/
+
+#container {
+    background-color: #B7F208;
+    margin: 2% 5%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px #769E00;
+}
+
+h1 {
+    color: navy;
+}

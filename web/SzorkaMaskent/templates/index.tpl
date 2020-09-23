@@ -1,0 +1,2 @@
+
+<p>Eredmény: {{ eredmeny }}</p>
