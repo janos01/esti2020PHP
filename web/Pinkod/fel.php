@@ -12,3 +12,4 @@ switch($kod) {
     default:
         print('Hibás kód!!!');
 }
+ 
