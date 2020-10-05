@@ -1,0 +1,21 @@
+/* Sallai András, 2020-10-05 */
+#container {
+    background-color: navy;
+    color: white;
+    margin: 2% 5%;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+form fieldset label {
+    width: 100px;
+    display: inline-block;
+}
+
+input {
+    margin-bottom: 2px;
+}
+
+#szerzo {
+    text-align: center;   
+}
