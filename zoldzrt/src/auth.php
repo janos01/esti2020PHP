@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 $user = $_POST['user'];
 $pass = $_POST['pass'];
@@ -9,6 +10,7 @@ if($user == "janos" && $pass == "titok") {
 }
 if($authok) {
   //$msg = "Azonosítás sikeres";
+  $_SESSION['authOk']=1;
   header('Location: internal.php');
 }else {
   $msg = "Sikertelen! Rossz felhasználónév vagy jelszót!";

@@ -13,5 +13,8 @@
         <li>
           <a href="login.php">Belépés</a>
         </li>
+        <li>
+          <a href="logout.php">Kilépés</a>
+        </li>
       </ul>
     </div>
