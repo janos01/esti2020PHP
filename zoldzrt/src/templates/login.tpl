@@ -1,3 +1,4 @@
+<!-- Nagy János, 2020-10-19, esti -->
 <form action="auth.php" method="post">
 
 <fieldset>
