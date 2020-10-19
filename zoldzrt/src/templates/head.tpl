@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Zöld Zrt</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -10,6 +11,12 @@
 
     <div id="menu">
       <ul>
+        <li>
+          <a href="index.php">Főoldal</a>
+        </li>
+        <li>
+          <a href="internal.php">Belső</a>
+        </li>
         <li>
           <a href="login.php">Belépés</a>
         </li>
