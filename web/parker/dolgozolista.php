@@ -42,8 +42,9 @@ if(mysqli_num_rows($res)>0) {
 
         echo <<<EOT
         <td>
-        <form action="toroldolgozo.php" method="post">
+        <form action="torleskerdes.php" method="post">
             <input type="hidden" name="az" value="{$sor['az']}">
+            <input type="hidden" name="nev" value="{$sor['nev']}">
             <button type="submit">Törlés</button>
         </form>
         </td>
