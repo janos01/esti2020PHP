@@ -1,13 +1,32 @@
 <?php
 //adddolgozo.php
 
+include 'config.php';
+
 $name = $_GET['name'];
 $city = $_GET['city'];
 $salery = $_GET['salery'];
 
 //echo $salery;
 
-$conn = mysqli_connect('localhost', 'parker', 'titok', 'parker');
+echo <<<EOT
+
+<div id="nav">
+    <ul>
+        <li><a href="index.php">Főoldal</a></li>
+        <li><a href="dolgozourlap.php">Hozzáadás</a></li>
+        <li><a href="dolgozolista.php">Lista</a></li>
+    </ul>
+</div>
+EOT;
+
+
+$conn = mysqli_connect(
+    $db['host'],
+    $db['user'],
+    $db['pass'],
+    $db['name']
+);
 
 if(!$conn) {
     echo "Hiba!<br>";
@@ -17,9 +36,9 @@ if(!$conn) {
 }
 
 $sql = <<<EOT
-insert into dolgozok 
-(nev, telepules, fizetes) 
-values 
+insert into dolgozok
+(nev, telepules, fizetes)
+values
 ('$name', '$city', $salery)
 EOT;
 
@@ -32,4 +51,3 @@ if(mysqli_query($conn, $sql)) {
 }
 
 mysqli_close($conn);
-

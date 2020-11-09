@@ -1,5 +1,7 @@
 <?php
 
+include 'config.php';
+
 $az = $_POST['az'];
 
 echo <<<EOT
@@ -14,7 +16,12 @@ echo <<<EOT
 EOT;
 
 
-$conn = mysqli_connect('localhost', 'parker', 'titok', 'parker');
+$conn = mysqli_connect(
+    $db['host'],
+    $db['user'],
+    $db['pass'],
+    $db['name']
+);
 
 if(!$conn) {
     echo "Hiba!<br>";

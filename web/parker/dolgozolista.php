@@ -1,6 +1,7 @@
 <?php
 //dolgozolista.php
 
+include 'config.php';
 
 echo <<<EOT
 
@@ -13,13 +14,16 @@ echo <<<EOT
 </div>
 EOT;
 
-$conn = mysqli_connect('localhost', 'parker', 'titok', 'parker');
+$conn = mysqli_connect(
+    $db['host'],
+    $db['user'],
+    $db['pass'],
+    $db['name']
+);
 
 if(!$conn) {
     echo "Hiba!<br>";
     echo mysqli_connect_error();
-}else {
-    echo "Ok<br>";
 }
 
 $sql = <<<EOT
