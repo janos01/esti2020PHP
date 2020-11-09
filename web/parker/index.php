@@ -1,12 +1,12 @@
 <?php
 
-$conn = mysqli_connect('localhost', 'parker', 'titok', 'parker');
+echo <<<EOT
 
-if(!$conn) {
-    echo "Hiba!<br>";
-    echo mysqli_connect_error();
-}else {
-    echo "Ok";
-}
-
-//beszúrás
+<div id="nav">
+    <ul>
+        <li><a href="index.php">Főoldal</a></li>
+        <li><a href="dolgozourlap.php">Hozzáadás</a></li>
+        <li><a href="dolgozolista.php">Lista</a></li>
+    </ul>
+</div>
+EOT;
