@@ -1,0 +1,14 @@
+/* Nagy János, 2020-11-23, esti Szoft */
+#container {
+    background-color: orange;
+    margin: 2% 5%;
+    padding: 30px;
+}
+
+.nevjegy {
+    border-color: red;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
