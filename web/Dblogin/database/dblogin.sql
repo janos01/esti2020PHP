@@ -10,14 +10,24 @@ create table users (
 );
 
 insert into users 
-(name, pass, enabled)
+(name, fullname, pass, enabled)
 values
-('Páros Mária', 'titok', 1),
-('Major Ágota', 'titok', 1);
+('mari', 'Páros Mária', 'titok', 1),
+('agota', 'Major Ágota', 'titok', 1);
 
 
 grant all privileges 
 on dblogin.*
 to 'dblogin'@'localhost'
 identified by 'titok';
+
+
+
+select * from users 
+where name = 'janos' 
+and pass = 'titok'
+
+select * from users 
+where name = 'mari' 
+and pass = 'titok'
 
