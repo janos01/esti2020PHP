@@ -1,6 +1,5 @@
 <?php
 
-
 function cryptPass($string) {
     $salt1 = 'kjdfkdsjfldjlfjsd';
     $salt2 = 'i3843kj3kljslj834';

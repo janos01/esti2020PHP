@@ -2,8 +2,8 @@
 session_start();
 include 'includes/database.php';
 
-$user = $_POST['user'];
-$pass = $_POST['pass'];
+$user = addslashes($_POST['user']);
+$pass = addslashes($_POST['pass']);
 
 $authOk = auth($user, $pass);
 

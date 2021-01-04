@@ -25,13 +25,13 @@ function closeDb($conn) {
 function auth($user, $pass) {
     $cryptedPass = cryptPass($pass);
     $sql = "select * from users 
-where name = '$user' 
-and pass = '$cryptedPass'";
+where name = '$user' and pass = '$cryptedPass'";
     $conn = connectDb();
+    error_log($sql);
     $res = mysqli_query($conn, $sql);
     $count = mysqli_num_rows($res);    
     closeDb($conn);
-    if ($count == 1) {
+    if ($count > 0) {
         return true;
     }else {
         return false;
