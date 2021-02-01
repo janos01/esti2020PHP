@@ -1,0 +1,15 @@
+#doboz {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin-top: 20px;  
+}
+
+#kulso {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    text-align: center; 
+    color: white;
+}
