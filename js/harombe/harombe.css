@@ -1,7 +1,8 @@
 #container {
 	background-color: orange;
-	margin: 2% 5%;
+	margin: 5% 5%;
 	padding: 30px;
+	position: absolute;
 }
 
 #container label {
@@ -16,7 +17,7 @@
 #container:before {
 	content: 'Háromszög';
 	position: absolute;
-	top: 70px;
+	top: -12px;
 	background-color: orange;
 	padding: 5px;
 	border-style: solid;
@@ -24,7 +25,13 @@
 	border-color: red;
 }
 
-
+#terulet {
+	margin: 20px;
+	background-color: white;
+	padding: 3px;
+	text-align: center;
+	display: none;
+}
 
 
 
