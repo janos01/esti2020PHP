@@ -1,0 +1,13 @@
+#container {
+	background-color: navy;
+	color: white;
+	margin: 5%;
+	padding: 20px;
+}
+
+#terulet {
+	background-color: orange;
+	padding: 10px;
+	margin: 10px;
+	display: none;
+}
