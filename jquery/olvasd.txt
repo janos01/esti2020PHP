@@ -1,0 +1,5 @@
+Függőség: jquery
+
+Töltse le a jquery egy libs nevű könyvtárba.
+Hivatkozva a ../libs/jquery-3.5.1.js van.
+
