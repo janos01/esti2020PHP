@@ -1,0 +1,41 @@
+/* Nagy János, 2/14 esti Szoft, 2021-03-01 */
+
+#container {
+	margin: 5%;
+	padding: 20px;
+	background-color: orange;
+	border-radius: 5px;
+}
+
+label {
+    width: 70px;
+    display: inline-block;
+}
+
+input {
+    margin-top: 2px;
+}
+
+legend {
+    background-color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#eredmeny {
+    display: none;
+}
+
+#nevjegy {
+    background-color: white;
+    border-width: 16px 0;
+    border-style: solid;
+    border-top-color: red;
+    text-align: center;
+    border-bottom-color: green;
+    position: fixed;
+    top: 70px;
+    right: -100px;
+    transform: rotate(45deg);
+    width: 400px;
+}
