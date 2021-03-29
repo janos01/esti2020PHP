@@ -1,0 +1,14 @@
+
+
+felelet/
+  |-draft/
+  |  |-felelet.dia
+  |  |-felelet.png
+  |  `-terv.txt
+  `-src/
+     |-lib/
+     |  |-jquery.js
+     |  `-jquery-ui.js
+     |-index.html
+     |-felelet.css
+     `-felelet.js
