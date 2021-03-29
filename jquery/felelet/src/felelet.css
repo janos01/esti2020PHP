@@ -1,0 +1,29 @@
+#container {
+	background-color: #FFA500;
+	margin: 5%;
+	padding: 15px;
+	
+}
+
+#feladat_ter #huzni div {
+	background-color: white;
+	margin-top: 20px;
+	padding: 10px;
+	display: inline-block;
+	width: 120px;
+}
+
+#feladat_ter #celok div {
+	background-color: #29F4F9;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+#huzni, #celok {
+	display: inline-block;
+	width: 300px;
+}
+
+#huzni {
+	
+}
