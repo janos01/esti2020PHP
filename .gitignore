@@ -1,8 +1,13 @@
 js/kepes/datas/*.jpg
 *.autosave
+jquery-3.5.1.js
 jquery/libs/
+<<<<<<< HEAD
 *jquery-3.6.0.js
 *jquery-ui.css
 *jquery-ui.js
 *jquery*.zip
 *jquery.js
+=======
+
+>>>>>>> f92d60c65cb6498f0b663b4b57d7fe7569ff8f36
