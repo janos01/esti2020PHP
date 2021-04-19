@@ -1,0 +1,24 @@
+
+tanauto/
+  |-adatbazis/
+  |  |-tanauto_letrehoz.sql
+  |  `-tanauto_mentes.sql
+  |-src/
+  |  |-includes/
+  |  |   |-config.php
+  |  |   |-mariadb.php
+  |  |   `-adatbazis.php
+  |  |-templates/
+  |  |   |-hozzad.tpl
+  |  |   |-foot.tpl
+  |  |   |-head.tpl
+  |  |   |-index.tpl
+  |  |   |-list.tpl
+  |  |   `-modosit.tpl
+  |  |-hozzaad.php
+  |  |-index.php
+  |  |-lista.php
+  |  `-modosit.php
+  `-test/
+     |-lekerJarmuvekTest.php
+     
